@@ -36,13 +36,3 @@ This project demonstrates an end-to-end ETL using Python and Google BigQuery. Th
 ### Upcoming Enhancements
 - Schedule the ETL with Airflow
 - Add more data sources (e.g. Spotify API)
-
-
-
-
- 
-
-
-
-
-# Spotify-to-BigQuery
