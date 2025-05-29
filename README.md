@@ -22,12 +22,16 @@ This project demonstrates an end-to-end ETL using Python and Google BigQuery. Th
 ### Set environment variables
 1. Export your Spotify and GCLoud credentials in bash or you can create a `.env` file and modify `extract.py` to accept the variables.
 ```export SPOTIFY_CLIENT_ID=your_client_id```
-```export SPOTIFY_CLIENT_SECRET=your_client_secret``
+
+```export SPOTIFY_CLIENT_SECRET=your_client_secret```
+
 ```export GOOGLE_APPLICATION_CREDENTIALS=path/to/your/credentials.json```
 
-2. Create a `.env` file and add BiqQuery table/data details.
+3. Create a `.env` file and add BiqQuery table/data details.
 ```PROJECT_ID= "your-goolge_cloud-project-id"```
+
 ```DATASET_NAME="your_dataset-id"```
+
 ```TABLE_NAME="your-table-name"```
 
 ### Run the ETL
